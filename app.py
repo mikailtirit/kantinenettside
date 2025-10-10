@@ -1,8 +1,8 @@
 
-#blok 1: starter flask appen
+# starter flask appen
 from flask import Flask, render_template
 
-#blok 2: lager flask appen for kantinen
+# lager flask appen for kantinen
 app = Flask (__name__)
 
 
