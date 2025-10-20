@@ -3,14 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Akademiets Kantine{% endblock %}</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/style.css">
-    <title>Document</title>
+    <title>{% block title %}Akademiets Kantine{% endblock %}</title>
 </head>
-<h1></h1>
+
 <body>
-   
+    <header>
+        <h1 class="overskrift">Akademiet kantine</h1>
+        <nav class="navbardesign">
+            <a href="/">Hjem</a>
+            <a href="/meny">Meny</a>
+            <a href="/varer">Varer</a>
+            <a href="/kontakt">Kontakt</a>
+        </nav>
+    </header>
 </body>
+
+<main>
+ {% block content %}{% endblock %}
+</main>
+
+<footer class="nederstetekst">
+    2025 Akademiet kantine
+</footer>
 
 </html>
