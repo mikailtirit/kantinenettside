@@ -1,48 +1,15 @@
-.overskrift {
+
+
+
+.kontakt-siden {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 165, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
     text-align: center;
-    border-left: 5px solid orange;
-    background-color: #fff5e6;
-    width: 1372px;
-    border-right: 5px solid orange;
-    margin-left: 32px;
 }
 
-.navbardesign {
-    background-color: #fff5e6;
-    margin: 33px;
-    padding: 10px;
-    border-left: 5px solid orange;
-    width: 210px;
-    
+.kontakt-siden h2 {
+    margin-bottom: 10px;
 }
-
-
-.meny-siden {
-    max-width: 400px;
-    margin: 130px;
-    padding: 30px;
-    background-color: #fdf4e5;
-    margin-left: 30px;
-}
-
-.meny-siden h2 {
-    text-align: left;
-}
-    
-.meny-siden p {
-    text-align: left;
-}
-
-.meny-listen {
-    list-style-type: none;
-    padding: 0;
-}
-
-.meny-dag {
-    background-color: #fff5e6;
-    margin: 8px;
-    padding: 10px;
-    border-left: 5px solid orange;
-}
-
-
