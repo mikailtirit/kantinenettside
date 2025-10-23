@@ -32,6 +32,9 @@ def varer():
     ]
     return render_template("varer.html", varer=varer)
 
+app.route("/kontakt")
+def kontakt():
+    return render_template("kontakt.html")
 
   
   
