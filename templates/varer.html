@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends "base.html" %}
+{% block content %}
+
+<div class="varer-siden">
+    <main>
+        <h2>Faste varer</h2>
+        <p>Her er noen av varene vi alltid har i kantina:</p>
+        <div class="varer-listen">
+            {% for vare in faste_varer %}
+            <div class="vare-boks">
+                <h3>{{ vare.navn }}</h3>
+                <p>Pris: {{ vare.pris }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</div>
+
+{% endblock %}
+
+    
+</body>
+</html>
