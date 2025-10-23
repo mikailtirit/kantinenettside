@@ -1,5 +1,4 @@
-
-.overskrift{
+.overskrift {
     text-align: center;
 }
 
@@ -39,3 +38,13 @@
 }
 
 
+.nederstetekst {
+    text-align: center;
+    max-width: 800px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #fff5e6;
+    color: black;
+    border-radius: 10px;
+   
+}

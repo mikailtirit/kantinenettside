@@ -19,14 +19,16 @@
             <a href="/kontakt">Kontakt</a>
         </nav>
     </header>
+
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="nederstetekst">
+        <p>Akademiet Kantine © 2025. Alle rettigheter reservert</p>
+    </footer>
+
 </body>
-
-<main>
- {% block content %}{% endblock %}
-</main>
-
-<footer class="nederstetekst">
-    2025 Akademiet kantine
-</footer>
 
 </html>
