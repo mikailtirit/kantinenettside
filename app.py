@@ -25,12 +25,12 @@ def meny():
 
 @app.route("/varer")
 def varer():
-    faste_varer = [
-        {"navn": "Bagett", "pris": "35kr"},
-        {"navn": "Bolle", "pris": "20kr"},
-        {"navn": "Drikke", "pris": "25kr"}
+    varer = [
+        {"navn": "Bagett", "pris": "35kr", "bilde": "bagett.jpg"},
+        {"navn": "Bolle", "pris": "20kr", "bilde": "bolle.jpg"},
+        {"navn": "Drikke", "pris": "25kr", "bilde": "drikke.jpg"}
     ]
-    return render_template("varer.html", faste_varer=faste_varer)
+    return render_template("varer.html", varer=varer)
 
 
   
