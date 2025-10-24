@@ -9,21 +9,35 @@
 </head>
 
 <body>
-    {% extends "base.html" %}
-    {% block content %}
- 
-    <div class="meny-siden">
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="meny-siden">
+    <div class="meny-container">
     <main>
         <h2>Ukens meny</h2>
         <p>Her kan du se hva kantina serverer denne uken:</p>
         <ul class="meny-listen">
             {% for dag in ukens_meny %}
-            <li class="meny-dag">{{ dag }}</li>
+                <li class="meny-dag">{{ dag }}</li>
             {% endfor %}
         </ul>
-    </main> 
-    </div>
-  {% endblock %}    
+    </main>
+    <div class="info-boks">
+            <h2 class="allergi-overskrift">Allergiinformasjon</h2>
+            <p>Har du allergier eller intoleranser? <br>
+               Vennligst gi beskjed til kantina før du bestiller. <br>
+               Vi tilpasser maten når vi kan. <br>
+               Husk å sjekke ingredienser på rettene. <br>
+               Send oss gjerne en melding hvis du har forslag eller ønsker for ukens meny.</p>
+        </div>
+        </div>
+</div>
+</div>
+
+{% endblock %}
+
 </body>
 
 </html>
