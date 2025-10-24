@@ -5,7 +5,7 @@
     width: 1372px;
     border-right: 5px solid orange;
     margin-left: 32px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbardesign {
@@ -14,7 +14,7 @@
     padding: 10px;
     border-left: 5px solid orange;
     width: 210px;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
