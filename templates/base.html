@@ -9,25 +9,38 @@
     <title>{% block title %}Akademiets Kantine{% endblock %}</title>
 </head>
 
+
+    
+
 <body>
     <header>
         <h1 class="overskrift">Akademiet kantine</h1>
         <nav class="navbardesign">
-            <a href="/">Hjem</a>
+            <a href="/">Hjem </a>
             <a href="/meny">Meny</a>
             <a href="/varer">Varer</a>
             <a href="/kontakt">Kontakt</a>
         </nav>
     </header>
 
+<div class="apning">
+    <p>Kantinen vår er åpen fra 9-16 hver uke fra man-fre</p>
+</div>
 
     <main>
         {% block content %}{% endblock %}
     </main>
 
+  
+
     <footer class="nederstetekst">
-        <p>Akademiet Kantine © 2025. Alle rettigheter reservert</p>
+        <p>Akademiet Kantine © 2025.  Alle rettigheter reservert</p>
     </footer>
+
+
+
+
+  
 
 </body>
 
