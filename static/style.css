@@ -110,9 +110,8 @@
 
 .meny-container {
     display: flex;
-    /* gjør at boksene står ved siden av hverandre */
     gap: 470px;
-    /* litt mellomrom mellom boksene */
+
 }
 
 .info-boks {
@@ -144,8 +143,7 @@
     font-size: 26px;
     margin-top: -310px;
     margin-left: 470px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: rgb(0, 0, 0);
 }
 
 .til {
@@ -153,8 +151,7 @@
     font-size: 26px;
     margin-top: -410px;
     left: 725px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: rgb(0, 0, 0);
 }
 
 .oss {
@@ -162,6 +159,23 @@
     font-size: 26px;
     margin-top: -290px;
     right: 515px;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    color: rgb(0, 0, 0);
+    
+}
+
+
+.sosiale-medier {
+    text-align: center; 
+    margin-top: 40px;    
+}
+
+.sosiale-medier img {
+    width: 40px;         
+    height: 40px;
+    margin: 0 10px;      
+    transition: transform 0.3s; 
+}
+
+.sosiale-medier img:hover {
+    transform: scale(1.2); 
 }
