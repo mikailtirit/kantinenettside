@@ -16,7 +16,7 @@
     margin: 33px;
     padding: 10px;
     border-left: 5px solid orange;
-    width: 210px;
+    width: 170px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 10px;
     box-shadow: 0 2px 8px #0001;
@@ -179,3 +179,22 @@
 .sosiale-medier img:hover {
     transform: scale(1.2); 
 }
+
+
+
+
+.apning {
+    position: absolute; 
+    top: 14px;         
+    right: 60px;      
+}
+
+.apning p {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+  
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+
