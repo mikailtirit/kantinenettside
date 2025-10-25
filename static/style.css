@@ -11,3 +11,148 @@
     padding-left: 20px;
 }
 
+.navbardesign {
+    background-color: #fff5e6;
+    margin: 33px;
+    padding: 10px;
+    border-left: 5px solid orange;
+    width: 210px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #0001;
+}
+
+
+
+
+.meny-siden {
+    max-width: 1700px;
+    margin: 130px;
+    padding: 30px;
+    background-color: #fdf4e5;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+
+.meny-siden h2 {
+    text-align: left;
+    margin-bottom: -370px;
+}
+
+.meny-siden p {
+    text-align: left;
+    margin-top: 400px;
+}
+
+.meny-listen {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 70px;
+}
+
+.meny-dag {
+    background-color: #fff5e6;
+    margin: 8px;
+    padding: 10px;
+    border-left: 5px solid orange;
+
+}
+
+
+.nederstetekst {
+    text-align: center;
+    max-width: 1330px;
+    margin: 200px auto;
+    padding: 100px;
+    background-color: #fff5e6;
+    color: black;
+    border-radius: 10px;
+
+}
+
+.varer-siden {
+    text-align: center;
+    margin: 20px;
+}
+
+.varer-boks {
+    background-color: rgba(255, 165, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    margin: 100px;
+    text-align: center;
+
+}
+
+
+.kontakt-siden {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 165, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.kontakt-siden h2 {
+    margin-bottom: 10px;
+}
+
+.meny-container {
+    display: flex;
+    /* gjør at boksene står ved siden av hverandre */
+    gap: 470px;
+    /* litt mellomrom mellom boksene */
+}
+
+.info-boks {
+
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 20px;
+    max-height: 250px;
+    width: 300px;
+
+}
+
+
+.dame-bilde {
+    position: relative;
+    text-align: center;
+}
+
+.dame-bilde img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.velkommen {
+    position: absolute;
+    font-size: 26px;
+    margin-top: -310px;
+    margin-left: 470px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.til {
+    position: absolute;
+    font-size: 26px;
+    margin-top: -410px;
+    left: 725px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.oss {
+    position: absolute;
+    font-size: 26px;
+    margin-top: -290px;
+    right: 515px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
