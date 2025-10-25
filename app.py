@@ -26,23 +26,22 @@ def meny():
 @app.route("/varer")
 def varer():
     varer = [
-        {"navn": "Bagett", "pris": "35kr", "bilde": "bagett.jpg"},
-        {"navn": "Bolle", "pris": "20kr", "bilde": "bolle.jpg"},
-        {"navn": "Drikke", "pris": "25kr", "bilde": "drikke.jpg"}
+        {"navn": "Bagett", "pris": "35kr"},
+        {"navn": "Bolle", "pris": "20kr"},
+        {"navn": "Drikke", "pris": "25kr"}
     ]
     return render_template("varer.html", varer=varer)
 
-app.route("/kontakt")
+
+@app.route("/kontakt")
 def kontakt():
     return render_template("kontakt.html")
 
-  
+
   
   
 if __name__ == "__main__":
     app.run(debug=True)
-
-
 
 
 

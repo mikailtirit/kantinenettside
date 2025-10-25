@@ -1,4 +1,4 @@
-# Akademiets Kantine Nettside
+# Akademiets kantine nettside
 
 # Prosjektbeskrivelse
 Dette prosjektet er en nettside for Akademiets Kantine. Brukeren kan:
@@ -41,4 +41,3 @@ Nettsiden er laget med Python, Flask, HTML og CSS.
 - Nettsiden er trygg og bruke
 - den viser bare informasjon og lagrer ingenting fra brukeren.
 - Det er ingen innlogging, skjermaer eller databaser, så det er da ingen risiko får hacking, virus osv. 
-
