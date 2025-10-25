@@ -1,114 +1,13 @@
 .overskrift {
-    text-align: center;
+    text-align: left;
     border-left: 5px solid orange;
     background-color: #fff5e6;
     width: 1372px;
     border-right: 5px solid orange;
     margin-left: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbardesign {
-    background-color: #fff5e6;
-    margin: 33px;
-    padding: 10px;
-    border-left: 5px solid orange;
-    width: 210px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-
-.meny-siden {
-    max-width: 1700px;
-    margin: 130px;
-    padding: 30px;
-    background-color: #fdf4e5;
-    margin-left: 120px;
-}
-
-.meny-siden h2 {
-    text-align: left;
-    margin-bottom: -370px;
-}
-    
-.meny-siden p {
-    text-align: left;
-    margin-top: 400px;
-}
-
-.meny-listen {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 70px;
-}
-
-.meny-dag {
-    background-color: #fff5e6;
-    margin: 8px;
-    padding: 10px;
-    border-left: 5px solid orange;
-    
-}
-
-
-.nederstetekst {
-    text-align: center;
-    max-width: 1330px;
-    margin: 200px auto;
-    padding: 100px;
-    background-color: #fff5e6;
-    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 10px;
-   
+    box-shadow: 0 2px 8px #0001;
+    padding-left: 20px;
 }
-
-.varer-siden {
-    text-align: center;
-    margin: 20px;
-}
-
-.varer-boks {
-    background-color: rgba(255, 165, 0, 0.2);
-    border-radius: 10px;
-    padding: 15px;
-    width: 150px;
-    margin: 100px;
-    text-align: center;
-   
-}
-
-
-.kontakt-siden {
-    max-width: 600px;
-    margin: 50px auto;
-    background-color: rgba(255, 165, 0, 0.2);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.kontakt-siden h2 {
-    margin-bottom: 10px;
-}
-
-.meny-container {
-    display: flex; /* gjør at boksene står ved siden av hverandre */
-    gap: 470px;     /* litt mellomrom mellom boksene */
-}
-
-.info-boks {
-   
-    border: 2px solid orange;
-    border-radius: 10px;
-    padding: 20px;
-    max-height: 250px;
-    width: 300px;
-    
-}
-
-
-
-
-
 
