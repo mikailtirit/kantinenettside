@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/static/style.css">
     <title>Document</title>
 </head>
-<body>
-    {% extends "base.html" %}
-{% block content %}
 
-<div class="varer-siden">
-    <main>
-        <h2>Faste varer</h2>
-        <p>Her er noen av varene vi alltid har i kantina:</p>
-        <div class="varer-listen">
-            {% for vare in faste_varer %}
-            <div class="varer-boks">
-                <h3>{{ vare.navn }}</h3>
-                <p>Pris: {{ vare.pris }}</p>
-            </div>
-            {% endfor %}
-        </div>
-    </main>
+<body>
+   {% extends "base.html" %}
+
+{% block content %}
+<div class="varer-listen">
+    {% for vare in varer %}
+    <div class="varer-boks">
+        <h3>{{ vare.navn }}</h3>
+        <p>Pris: {{ vare.pris }}</p>
+        {% if vare.navn == "Bagett" %}
+            <img src="/static/images/pngimg.com - sandwich_PNG60.png" alt="sandwich">
+        {% elif vare.navn == "Bolle" %}
+            <img src="/static/images/pngtree-freshly-baked-wheat-bun-png-image_11988831.png" alt="Bolle">
+        {% elif vare.navn == "Drikke" %}
+            <img src="/static/images/pngimg.com - cocacola_PNG22.png" alt="Drikke">
+        {% endif %}
+    </div>
+    {% endfor %}
 </div>
 
 {% endblock %}
 
-    
+
+
 </body>
+
 </html>
